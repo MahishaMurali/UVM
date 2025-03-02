@@ -13,6 +13,6 @@ endclass
 module tb;
 
 initial begin
-run_test("sample");
+  run_test("sample");//once we started working in phases run_test can beused where the factory will take care of everything for that class mentioned
 end
 endmodule
